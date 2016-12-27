@@ -1,11 +1,11 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-import { Home }  from './components/Home';
+import { Greeting }  from './components/Greeting';
 
 class App extends React.Component{
     render(){
-        return <Home />;
+        return <Greeting name = "Abhishek"/>;
     }
 }
 
